@@ -4,7 +4,7 @@
 
 ```java
 JSONObject orderRequest = new JSONObject();
-orderRequest.put("amount",50000);
+orderRequest.put("amount",2500);
 orderRequest.put("currency","INR");
 orderRequest.put("receipt", "receipt#1");
 JSONObject notes = new JSONObject();
@@ -31,9 +31,9 @@ Order order = instance.orders.create(orderRequest);
 {
   "id": "order_EKwxwAgItmmXdp",
   "entity": "order",
-  "amount": 50000,
+  "amount": 2500,
   "amount_paid": 0,
-  "amount_due": 50000,
+  "amount_due": 2500,
   "currency": "INR",
   "receipt": "receipt#1",
   "offer_id": null,
